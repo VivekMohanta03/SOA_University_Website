@@ -9,14 +9,8 @@ a {
 }
 .header {
   min-height: 100vh;
-  overflow-x: hidden;
   width: 100%;
-  background-image: linear-gradient(
-      90deg,
-      rgba(110, 73, 48, 0.767),
-      rgba(18, 46, 168, 0.582)
-    ),
-    url(https://images.squarespace-cdn.com/content/v1/57713a8e2994cae381dd86fe/1647673457416-9QXAF1WG466JS12MGKEI/DJI_0114.jpg?format=2500w);
+  background-image: url(https://images.squarespace-cdn.com/content/v1/57713a8e2994cae381dd86fe/1543925384526-GNBBO11VDMAKDWGOTDEJ/1-5.jpg?format=2500w);
   background-position: center;
   background-size: cover;
   position: relative;
@@ -45,9 +39,7 @@ nav img {
   text-decoration: none;
   font-size: 15px;
 }
-.nav-links ul li a:hover {
-  font-weight: 520;
-}
+
 .nav-links ul li::after {
   content: "";
   width: 0%;
@@ -149,7 +141,7 @@ nav .fa {
   content: "";
   width: 0%;
   height: 2px;
-  background-color: #f44336;
+  background-color: #ff6c61cc;
   display: block;
   margin: auto;
   transition: 0.9s;
@@ -376,8 +368,8 @@ h3 {
 }
 .full-background {
   background: linear-gradient(
-    90deg,
-    rgb(144 255 214 / 47%),
-    rgb(255 143 200 / 35%)
+    180deg,
+    rgba(1, 249, 158, 0.641),
+    rgba(247, 127, 127, 0.35)
   );
 }
